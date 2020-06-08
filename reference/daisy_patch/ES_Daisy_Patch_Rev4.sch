@@ -3801,8 +3801,8 @@ Metric Code Size 1005</description>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="1.5875" y="0" size="0.8128" layer="25">&gt;NAME</text>
+<text x="1.5875" y="-0.9525" size="0.8128" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -3833,8 +3833,8 @@ Metric Code Size 1608</description>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="2.2225" y="0" size="0.8128" layer="25">&gt;NAME</text>
+<text x="2.2225" y="-0.9525" size="0.8128" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
@@ -5083,8 +5083,8 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="1.5875" y="0" size="0.8128" layer="25">&gt;NAME</text>
+<text x="1.5875" y="-0.9525" size="0.8128" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
@@ -5792,7 +5792,11 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="-0.635" y1="-1.27" x2="0.635" y2="-1.27" width="0.127" layer="21"/>
 <smd name="P$1" x="-1.0033" y="0" dx="0.5588" dy="1.6002" layer="1"/>
 <smd name="P$2" x="1.0033" y="0" dx="0.5588" dy="1.6002" layer="1"/>
-<text x="0" y="0" size="1.016" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
+<text x="-2.2225" y="0" size="0.8128" layer="21" font="vector" rot="R270" align="center">&gt;NAME</text>
+<wire x1="-1.42875" y1="1.42875" x2="-1.42875" y2="-1.42875" width="0.0508" layer="21"/>
+<wire x1="-1.42875" y1="-1.42875" x2="1.42875" y2="-1.42875" width="0.0508" layer="21"/>
+<wire x1="1.42875" y1="-1.42875" x2="1.42875" y2="1.42875" width="0.0508" layer="21"/>
+<wire x1="1.42875" y1="1.42875" x2="-1.42875" y2="1.42875" width="0.0508" layer="21"/>
 </package>
 <package name="BOURNS_POWER_INDUCTOR_SDR0403">
 <circle x="0" y="0" radius="2.1463" width="0.127" layer="21"/>
@@ -9164,43 +9168,43 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="-25.4" y1="25.4" x2="25.4" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="-27.94" width="0.4064" layer="94"/>
 <wire x1="25.4" y1="-27.94" x2="-25.4" y2="-27.94" width="0.4064" layer="94"/>
-<pin name="GPIO1(USB_HS_ID)" x="-30.48" y="22.86" length="middle" swaplevel="1"/>
-<pin name="GPIO2(SDMMC1_D3)" x="-30.48" y="20.32" length="middle" swaplevel="1"/>
-<pin name="GPIO3(SDMMC1_D2)" x="-30.48" y="17.78" length="middle" swaplevel="1"/>
-<pin name="GPIO4(SDMMC1_D1)" x="-30.48" y="15.24" length="middle" swaplevel="1"/>
-<pin name="GPIO5(SDMMC1_D0)" x="-30.48" y="12.7" length="middle" swaplevel="1"/>
-<pin name="GPIO6(SDMMC1_CMD)" x="-30.48" y="10.16" length="middle" swaplevel="1"/>
-<pin name="GPIO7(SDMMC1_CK)" x="-30.48" y="7.62" length="middle" swaplevel="1"/>
-<pin name="GPIO8(SPI1_NSS)" x="-30.48" y="5.08" length="middle" swaplevel="1"/>
-<pin name="GPIO9(SPI1_SCK)" x="-30.48" y="2.54" length="middle" swaplevel="1"/>
-<pin name="GPIO10(SPI1_MISO)" x="-30.48" y="0" length="middle" swaplevel="1"/>
-<pin name="GPIO11(SPI1_MOSI)" x="-30.48" y="-2.54" length="middle" swaplevel="1"/>
-<pin name="GPIO12(I2C1_SCL)" x="-30.48" y="-5.08" length="middle" swaplevel="1"/>
-<pin name="GPIO13(I2C1_SDA)" x="-30.48" y="-7.62" length="middle" swaplevel="1"/>
-<pin name="GPIO14(USART1_TX)" x="-30.48" y="-10.16" length="middle" swaplevel="1"/>
-<pin name="GPIO15(USART1_RX)" x="-30.48" y="-12.7" length="middle" swaplevel="1"/>
+<pin name="GPIO0(USB_HS_ID)" x="-30.48" y="22.86" length="middle" swaplevel="1"/>
+<pin name="GPIO1(SDMMC1_D3)" x="-30.48" y="20.32" length="middle" swaplevel="1"/>
+<pin name="GPIO2(SDMMC1_D2)" x="-30.48" y="17.78" length="middle" swaplevel="1"/>
+<pin name="GPIO3(SDMMC1_D1)" x="-30.48" y="15.24" length="middle" swaplevel="1"/>
+<pin name="GPIO4(SDMMC1_D0)" x="-30.48" y="12.7" length="middle" swaplevel="1"/>
+<pin name="GPIO5(SDMMC1_CMD)" x="-30.48" y="10.16" length="middle" swaplevel="1"/>
+<pin name="GPIO6(SDMMC1_CK)" x="-30.48" y="7.62" length="middle" swaplevel="1"/>
+<pin name="GPIO7(SPI1_NSS)" x="-30.48" y="5.08" length="middle" swaplevel="1"/>
+<pin name="GPIO8(SPI1_SCK)" x="-30.48" y="2.54" length="middle" swaplevel="1"/>
+<pin name="GPIO9(SPI1_MISO)" x="-30.48" y="0" length="middle" swaplevel="1"/>
+<pin name="GPIO10(SPI1_MOSI)" x="-30.48" y="-2.54" length="middle" swaplevel="1"/>
+<pin name="GPIO11(I2C1_SCL)" x="-30.48" y="-5.08" length="middle" swaplevel="1"/>
+<pin name="GPIO12(I2C1_SDA)" x="-30.48" y="-7.62" length="middle" swaplevel="1"/>
+<pin name="GPIO13(USART1_TX)" x="-30.48" y="-10.16" length="middle" swaplevel="1"/>
+<pin name="GPIO14(USART1_RX)" x="-30.48" y="-12.7" length="middle" swaplevel="1"/>
 <pin name="AUDIO_IN_L" x="-30.48" y="-15.24" length="middle" swaplevel="1"/>
 <pin name="AUDIO_IN_R" x="-30.48" y="-17.78" length="middle" swaplevel="1"/>
 <pin name="AUDIO_OUT_L" x="-30.48" y="-20.32" length="middle" swaplevel="1"/>
 <pin name="AUDIO_OUT_R" x="-30.48" y="-22.86" length="middle" swaplevel="1"/>
 <pin name="GND" x="30.48" y="22.86" length="middle" swaplevel="1" rot="R180"/>
 <pin name="+3V3_A" x="30.48" y="-25.4" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO16(ADC1_INP10)" x="30.48" y="-22.86" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO22(ADC1_INP4)" x="30.48" y="-7.62" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO17(ADC1_INP15)" x="30.48" y="-20.32" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO18(ADC1_INP5)" x="30.48" y="-17.78" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO19(ADC1_INP7)" x="30.48" y="-15.24" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO20(ADC1_INP3)" x="30.48" y="-12.7" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO21(ADC1_INP11)" x="30.48" y="-10.16" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO25(SAI2_MCLK_B)" x="30.48" y="0" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO23(DAC1_OUT2)" x="30.48" y="-5.08" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO24(DAC1_OUT1)" x="30.48" y="-2.54" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO26(SAI2_SD_B)" x="30.48" y="2.54" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO27(SAI2_SD_A)" x="30.48" y="5.08" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO28(SAI2_FS_B)" x="30.48" y="7.62" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO29(SAI2_SCK_B)" x="30.48" y="10.16" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO30(USB_HS_D_-)" x="30.48" y="12.7" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GPIO31(USB_HS_D+)" x="30.48" y="15.24" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO15(ADC0)" x="30.48" y="-22.86" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO21(ADC6)" x="30.48" y="-7.62" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO16(ADC1)" x="30.48" y="-20.32" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO17(ADC2)" x="30.48" y="-17.78" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO18(ADC3)" x="30.48" y="-15.24" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO19(ADC4)" x="30.48" y="-12.7" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO20(ADC5)" x="30.48" y="-10.16" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO24(ADC9)" x="30.48" y="0" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO22(ADC7/DAC2)" x="30.48" y="-5.08" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO23(ADC8/DAC1)" x="30.48" y="-2.54" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO25(ADC10)" x="30.48" y="2.54" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO26(SAI2_SD_A)" x="30.48" y="5.08" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO27(SAI2_FS_B)" x="30.48" y="7.62" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO28(ADC11)" x="30.48" y="10.16" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO29(USB_HS_D_-)" x="30.48" y="12.7" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GPIO30(USB_HS_D+)" x="30.48" y="15.24" length="middle" swaplevel="1" rot="R180"/>
 <pin name="V_IN" x="30.48" y="20.32" length="middle" swaplevel="1" rot="R180"/>
 <pin name="+3V3_D" x="30.48" y="17.78" length="middle" swaplevel="1" rot="R180"/>
 <text x="-25.4" y="27.94" size="1.778" layer="94">&gt;NAME</text>
@@ -9224,37 +9228,37 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <connect gate="G$1" pin="AUDIO_OUT_L" pad="18"/>
 <connect gate="G$1" pin="AUDIO_OUT_R" pad="19"/>
 <connect gate="G$1" pin="GND" pad="40"/>
-<connect gate="G$1" pin="GPIO1(USB_HS_ID)" pad="1"/>
-<connect gate="G$1" pin="GPIO10(SPI1_MISO)" pad="10"/>
-<connect gate="G$1" pin="GPIO11(SPI1_MOSI)" pad="11"/>
-<connect gate="G$1" pin="GPIO12(I2C1_SCL)" pad="12"/>
-<connect gate="G$1" pin="GPIO13(I2C1_SDA)" pad="13"/>
-<connect gate="G$1" pin="GPIO14(USART1_TX)" pad="14"/>
-<connect gate="G$1" pin="GPIO15(USART1_RX)" pad="15"/>
-<connect gate="G$1" pin="GPIO16(ADC1_INP10)" pad="22"/>
-<connect gate="G$1" pin="GPIO17(ADC1_INP15)" pad="23"/>
-<connect gate="G$1" pin="GPIO18(ADC1_INP5)" pad="24"/>
-<connect gate="G$1" pin="GPIO19(ADC1_INP7)" pad="25"/>
-<connect gate="G$1" pin="GPIO2(SDMMC1_D3)" pad="2"/>
-<connect gate="G$1" pin="GPIO20(ADC1_INP3)" pad="26"/>
-<connect gate="G$1" pin="GPIO21(ADC1_INP11)" pad="27"/>
-<connect gate="G$1" pin="GPIO22(ADC1_INP4)" pad="28"/>
-<connect gate="G$1" pin="GPIO23(DAC1_OUT2)" pad="29"/>
-<connect gate="G$1" pin="GPIO24(DAC1_OUT1)" pad="30"/>
-<connect gate="G$1" pin="GPIO25(SAI2_MCLK_B)" pad="31"/>
-<connect gate="G$1" pin="GPIO26(SAI2_SD_B)" pad="32"/>
-<connect gate="G$1" pin="GPIO27(SAI2_SD_A)" pad="33"/>
-<connect gate="G$1" pin="GPIO28(SAI2_FS_B)" pad="34"/>
-<connect gate="G$1" pin="GPIO29(SAI2_SCK_B)" pad="35"/>
-<connect gate="G$1" pin="GPIO3(SDMMC1_D2)" pad="3"/>
-<connect gate="G$1" pin="GPIO30(USB_HS_D_-)" pad="36"/>
-<connect gate="G$1" pin="GPIO31(USB_HS_D+)" pad="37"/>
-<connect gate="G$1" pin="GPIO4(SDMMC1_D1)" pad="4"/>
-<connect gate="G$1" pin="GPIO5(SDMMC1_D0)" pad="5"/>
-<connect gate="G$1" pin="GPIO6(SDMMC1_CMD)" pad="6"/>
-<connect gate="G$1" pin="GPIO7(SDMMC1_CK)" pad="7"/>
-<connect gate="G$1" pin="GPIO8(SPI1_NSS)" pad="8"/>
-<connect gate="G$1" pin="GPIO9(SPI1_SCK)" pad="9"/>
+<connect gate="G$1" pin="GPIO0(USB_HS_ID)" pad="1"/>
+<connect gate="G$1" pin="GPIO1(SDMMC1_D3)" pad="2"/>
+<connect gate="G$1" pin="GPIO10(SPI1_MOSI)" pad="11"/>
+<connect gate="G$1" pin="GPIO11(I2C1_SCL)" pad="12"/>
+<connect gate="G$1" pin="GPIO12(I2C1_SDA)" pad="13"/>
+<connect gate="G$1" pin="GPIO13(USART1_TX)" pad="14"/>
+<connect gate="G$1" pin="GPIO14(USART1_RX)" pad="15"/>
+<connect gate="G$1" pin="GPIO15(ADC0)" pad="22"/>
+<connect gate="G$1" pin="GPIO16(ADC1)" pad="23"/>
+<connect gate="G$1" pin="GPIO17(ADC2)" pad="24"/>
+<connect gate="G$1" pin="GPIO18(ADC3)" pad="25"/>
+<connect gate="G$1" pin="GPIO19(ADC4)" pad="26"/>
+<connect gate="G$1" pin="GPIO2(SDMMC1_D2)" pad="3"/>
+<connect gate="G$1" pin="GPIO20(ADC5)" pad="27"/>
+<connect gate="G$1" pin="GPIO21(ADC6)" pad="28"/>
+<connect gate="G$1" pin="GPIO22(ADC7/DAC2)" pad="29"/>
+<connect gate="G$1" pin="GPIO23(ADC8/DAC1)" pad="30"/>
+<connect gate="G$1" pin="GPIO24(ADC9)" pad="31"/>
+<connect gate="G$1" pin="GPIO25(ADC10)" pad="32"/>
+<connect gate="G$1" pin="GPIO26(SAI2_SD_A)" pad="33"/>
+<connect gate="G$1" pin="GPIO27(SAI2_FS_B)" pad="34"/>
+<connect gate="G$1" pin="GPIO28(ADC11)" pad="35"/>
+<connect gate="G$1" pin="GPIO29(USB_HS_D_-)" pad="36"/>
+<connect gate="G$1" pin="GPIO3(SDMMC1_D1)" pad="4"/>
+<connect gate="G$1" pin="GPIO30(USB_HS_D+)" pad="37"/>
+<connect gate="G$1" pin="GPIO4(SDMMC1_D0)" pad="5"/>
+<connect gate="G$1" pin="GPIO5(SDMMC1_CMD)" pad="6"/>
+<connect gate="G$1" pin="GPIO6(SDMMC1_CK)" pad="7"/>
+<connect gate="G$1" pin="GPIO7(SPI1_NSS)" pad="8"/>
+<connect gate="G$1" pin="GPIO8(SPI1_SCK)" pad="9"/>
+<connect gate="G$1" pin="GPIO9(SPI1_MISO)" pad="10"/>
 <connect gate="G$1" pin="V_IN" pad="39"/>
 </connects>
 <technologies>
@@ -9273,37 +9277,37 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <connect gate="G$1" pin="AUDIO_OUT_L" pad="18"/>
 <connect gate="G$1" pin="AUDIO_OUT_R" pad="19"/>
 <connect gate="G$1" pin="GND" pad="40"/>
-<connect gate="G$1" pin="GPIO1(USB_HS_ID)" pad="1"/>
-<connect gate="G$1" pin="GPIO10(SPI1_MISO)" pad="10"/>
-<connect gate="G$1" pin="GPIO11(SPI1_MOSI)" pad="11"/>
-<connect gate="G$1" pin="GPIO12(I2C1_SCL)" pad="12"/>
-<connect gate="G$1" pin="GPIO13(I2C1_SDA)" pad="13"/>
-<connect gate="G$1" pin="GPIO14(USART1_TX)" pad="14"/>
-<connect gate="G$1" pin="GPIO15(USART1_RX)" pad="15"/>
-<connect gate="G$1" pin="GPIO16(ADC1_INP10)" pad="22"/>
-<connect gate="G$1" pin="GPIO17(ADC1_INP15)" pad="23"/>
-<connect gate="G$1" pin="GPIO18(ADC1_INP5)" pad="24"/>
-<connect gate="G$1" pin="GPIO19(ADC1_INP7)" pad="25"/>
-<connect gate="G$1" pin="GPIO2(SDMMC1_D3)" pad="2"/>
-<connect gate="G$1" pin="GPIO20(ADC1_INP3)" pad="26"/>
-<connect gate="G$1" pin="GPIO21(ADC1_INP11)" pad="27"/>
-<connect gate="G$1" pin="GPIO22(ADC1_INP4)" pad="28"/>
-<connect gate="G$1" pin="GPIO23(DAC1_OUT2)" pad="29"/>
-<connect gate="G$1" pin="GPIO24(DAC1_OUT1)" pad="30"/>
-<connect gate="G$1" pin="GPIO25(SAI2_MCLK_B)" pad="31"/>
-<connect gate="G$1" pin="GPIO26(SAI2_SD_B)" pad="32"/>
-<connect gate="G$1" pin="GPIO27(SAI2_SD_A)" pad="33"/>
-<connect gate="G$1" pin="GPIO28(SAI2_FS_B)" pad="34"/>
-<connect gate="G$1" pin="GPIO29(SAI2_SCK_B)" pad="35"/>
-<connect gate="G$1" pin="GPIO3(SDMMC1_D2)" pad="3"/>
-<connect gate="G$1" pin="GPIO30(USB_HS_D_-)" pad="36"/>
-<connect gate="G$1" pin="GPIO31(USB_HS_D+)" pad="37"/>
-<connect gate="G$1" pin="GPIO4(SDMMC1_D1)" pad="4"/>
-<connect gate="G$1" pin="GPIO5(SDMMC1_D0)" pad="5"/>
-<connect gate="G$1" pin="GPIO6(SDMMC1_CMD)" pad="6"/>
-<connect gate="G$1" pin="GPIO7(SDMMC1_CK)" pad="7"/>
-<connect gate="G$1" pin="GPIO8(SPI1_NSS)" pad="8"/>
-<connect gate="G$1" pin="GPIO9(SPI1_SCK)" pad="9"/>
+<connect gate="G$1" pin="GPIO0(USB_HS_ID)" pad="1"/>
+<connect gate="G$1" pin="GPIO1(SDMMC1_D3)" pad="2"/>
+<connect gate="G$1" pin="GPIO10(SPI1_MOSI)" pad="11"/>
+<connect gate="G$1" pin="GPIO11(I2C1_SCL)" pad="12"/>
+<connect gate="G$1" pin="GPIO12(I2C1_SDA)" pad="13"/>
+<connect gate="G$1" pin="GPIO13(USART1_TX)" pad="14"/>
+<connect gate="G$1" pin="GPIO14(USART1_RX)" pad="15"/>
+<connect gate="G$1" pin="GPIO15(ADC0)" pad="22"/>
+<connect gate="G$1" pin="GPIO16(ADC1)" pad="23"/>
+<connect gate="G$1" pin="GPIO17(ADC2)" pad="24"/>
+<connect gate="G$1" pin="GPIO18(ADC3)" pad="25"/>
+<connect gate="G$1" pin="GPIO19(ADC4)" pad="26"/>
+<connect gate="G$1" pin="GPIO2(SDMMC1_D2)" pad="3"/>
+<connect gate="G$1" pin="GPIO20(ADC5)" pad="27"/>
+<connect gate="G$1" pin="GPIO21(ADC6)" pad="28"/>
+<connect gate="G$1" pin="GPIO22(ADC7/DAC2)" pad="29"/>
+<connect gate="G$1" pin="GPIO23(ADC8/DAC1)" pad="30"/>
+<connect gate="G$1" pin="GPIO24(ADC9)" pad="31"/>
+<connect gate="G$1" pin="GPIO25(ADC10)" pad="32"/>
+<connect gate="G$1" pin="GPIO26(SAI2_SD_A)" pad="33"/>
+<connect gate="G$1" pin="GPIO27(SAI2_FS_B)" pad="34"/>
+<connect gate="G$1" pin="GPIO28(ADC11)" pad="35"/>
+<connect gate="G$1" pin="GPIO29(USB_HS_D_-)" pad="36"/>
+<connect gate="G$1" pin="GPIO3(SDMMC1_D1)" pad="4"/>
+<connect gate="G$1" pin="GPIO30(USB_HS_D+)" pad="37"/>
+<connect gate="G$1" pin="GPIO4(SDMMC1_D0)" pad="5"/>
+<connect gate="G$1" pin="GPIO5(SDMMC1_CMD)" pad="6"/>
+<connect gate="G$1" pin="GPIO6(SDMMC1_CK)" pad="7"/>
+<connect gate="G$1" pin="GPIO7(SPI1_NSS)" pad="8"/>
+<connect gate="G$1" pin="GPIO8(SPI1_SCK)" pad="9"/>
+<connect gate="G$1" pin="GPIO9(SPI1_MISO)" pad="10"/>
 <connect gate="G$1" pin="V_IN" pad="39"/>
 </connects>
 <technologies>
@@ -9320,37 +9324,37 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <connect gate="G$1" pin="AUDIO_OUT_L" pad="18 58"/>
 <connect gate="G$1" pin="AUDIO_OUT_R" pad="19 59"/>
 <connect gate="G$1" pin="GND" pad="40 80"/>
-<connect gate="G$1" pin="GPIO1(USB_HS_ID)" pad="1 41"/>
-<connect gate="G$1" pin="GPIO10(SPI1_MISO)" pad="10 50"/>
-<connect gate="G$1" pin="GPIO11(SPI1_MOSI)" pad="11 51"/>
-<connect gate="G$1" pin="GPIO12(I2C1_SCL)" pad="12 52"/>
-<connect gate="G$1" pin="GPIO13(I2C1_SDA)" pad="13 53"/>
-<connect gate="G$1" pin="GPIO14(USART1_TX)" pad="14 54"/>
-<connect gate="G$1" pin="GPIO15(USART1_RX)" pad="15 55"/>
-<connect gate="G$1" pin="GPIO16(ADC1_INP10)" pad="22 62"/>
-<connect gate="G$1" pin="GPIO17(ADC1_INP15)" pad="23 63"/>
-<connect gate="G$1" pin="GPIO18(ADC1_INP5)" pad="24 64"/>
-<connect gate="G$1" pin="GPIO19(ADC1_INP7)" pad="25 65"/>
-<connect gate="G$1" pin="GPIO2(SDMMC1_D3)" pad="2 42"/>
-<connect gate="G$1" pin="GPIO20(ADC1_INP3)" pad="26 66"/>
-<connect gate="G$1" pin="GPIO21(ADC1_INP11)" pad="27 67"/>
-<connect gate="G$1" pin="GPIO22(ADC1_INP4)" pad="28 68"/>
-<connect gate="G$1" pin="GPIO23(DAC1_OUT2)" pad="29 69"/>
-<connect gate="G$1" pin="GPIO24(DAC1_OUT1)" pad="30 70"/>
-<connect gate="G$1" pin="GPIO25(SAI2_MCLK_B)" pad="31 71"/>
-<connect gate="G$1" pin="GPIO26(SAI2_SD_B)" pad="32 72"/>
-<connect gate="G$1" pin="GPIO27(SAI2_SD_A)" pad="33 73"/>
-<connect gate="G$1" pin="GPIO28(SAI2_FS_B)" pad="34 74"/>
-<connect gate="G$1" pin="GPIO29(SAI2_SCK_B)" pad="35 75"/>
-<connect gate="G$1" pin="GPIO3(SDMMC1_D2)" pad="3 43"/>
-<connect gate="G$1" pin="GPIO30(USB_HS_D_-)" pad="36 76"/>
-<connect gate="G$1" pin="GPIO31(USB_HS_D+)" pad="37 77"/>
-<connect gate="G$1" pin="GPIO4(SDMMC1_D1)" pad="4 44"/>
-<connect gate="G$1" pin="GPIO5(SDMMC1_D0)" pad="5 45"/>
-<connect gate="G$1" pin="GPIO6(SDMMC1_CMD)" pad="6 46"/>
-<connect gate="G$1" pin="GPIO7(SDMMC1_CK)" pad="7 47"/>
-<connect gate="G$1" pin="GPIO8(SPI1_NSS)" pad="8 48"/>
-<connect gate="G$1" pin="GPIO9(SPI1_SCK)" pad="9 49"/>
+<connect gate="G$1" pin="GPIO0(USB_HS_ID)" pad="1 41"/>
+<connect gate="G$1" pin="GPIO1(SDMMC1_D3)" pad="2 42"/>
+<connect gate="G$1" pin="GPIO10(SPI1_MOSI)" pad="11 51"/>
+<connect gate="G$1" pin="GPIO11(I2C1_SCL)" pad="12 52"/>
+<connect gate="G$1" pin="GPIO12(I2C1_SDA)" pad="13 53"/>
+<connect gate="G$1" pin="GPIO13(USART1_TX)" pad="14 54"/>
+<connect gate="G$1" pin="GPIO14(USART1_RX)" pad="15 55"/>
+<connect gate="G$1" pin="GPIO15(ADC0)" pad="22 62"/>
+<connect gate="G$1" pin="GPIO16(ADC1)" pad="23 63"/>
+<connect gate="G$1" pin="GPIO17(ADC2)" pad="24 64"/>
+<connect gate="G$1" pin="GPIO18(ADC3)" pad="25 65"/>
+<connect gate="G$1" pin="GPIO19(ADC4)" pad="26 66"/>
+<connect gate="G$1" pin="GPIO2(SDMMC1_D2)" pad="3 43"/>
+<connect gate="G$1" pin="GPIO20(ADC5)" pad="27 67"/>
+<connect gate="G$1" pin="GPIO21(ADC6)" pad="28 68"/>
+<connect gate="G$1" pin="GPIO22(ADC7/DAC2)" pad="29 69"/>
+<connect gate="G$1" pin="GPIO23(ADC8/DAC1)" pad="30 70"/>
+<connect gate="G$1" pin="GPIO24(ADC9)" pad="31 71"/>
+<connect gate="G$1" pin="GPIO25(ADC10)" pad="32 72"/>
+<connect gate="G$1" pin="GPIO26(SAI2_SD_A)" pad="33 73"/>
+<connect gate="G$1" pin="GPIO27(SAI2_FS_B)" pad="34 74"/>
+<connect gate="G$1" pin="GPIO28(ADC11)" pad="35 75"/>
+<connect gate="G$1" pin="GPIO29(USB_HS_D_-)" pad="36 76"/>
+<connect gate="G$1" pin="GPIO3(SDMMC1_D1)" pad="4 44"/>
+<connect gate="G$1" pin="GPIO30(USB_HS_D+)" pad="37 77"/>
+<connect gate="G$1" pin="GPIO4(SDMMC1_D0)" pad="5 45"/>
+<connect gate="G$1" pin="GPIO5(SDMMC1_CMD)" pad="6 46"/>
+<connect gate="G$1" pin="GPIO6(SDMMC1_CK)" pad="7 47"/>
+<connect gate="G$1" pin="GPIO7(SPI1_NSS)" pad="8 48"/>
+<connect gate="G$1" pin="GPIO8(SPI1_SCK)" pad="9 49"/>
+<connect gate="G$1" pin="GPIO9(SPI1_MISO)" pad="10 50"/>
 <connect gate="G$1" pin="V_IN" pad="39 79"/>
 </connects>
 <technologies>
@@ -9367,37 +9371,37 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <connect gate="G$1" pin="AUDIO_OUT_L" pad="18 B18"/>
 <connect gate="G$1" pin="AUDIO_OUT_R" pad="19 B19"/>
 <connect gate="G$1" pin="GND" pad="40 B40"/>
-<connect gate="G$1" pin="GPIO1(USB_HS_ID)" pad="1 B1"/>
-<connect gate="G$1" pin="GPIO10(SPI1_MISO)" pad="10 B10"/>
-<connect gate="G$1" pin="GPIO11(SPI1_MOSI)" pad="11 B11"/>
-<connect gate="G$1" pin="GPIO12(I2C1_SCL)" pad="12 B12"/>
-<connect gate="G$1" pin="GPIO13(I2C1_SDA)" pad="13 B13"/>
-<connect gate="G$1" pin="GPIO14(USART1_TX)" pad="14 B14"/>
-<connect gate="G$1" pin="GPIO15(USART1_RX)" pad="15 B15"/>
-<connect gate="G$1" pin="GPIO16(ADC1_INP10)" pad="22 B22"/>
-<connect gate="G$1" pin="GPIO17(ADC1_INP15)" pad="23 B23"/>
-<connect gate="G$1" pin="GPIO18(ADC1_INP5)" pad="24 B24"/>
-<connect gate="G$1" pin="GPIO19(ADC1_INP7)" pad="25 B25"/>
-<connect gate="G$1" pin="GPIO2(SDMMC1_D3)" pad="2 B2"/>
-<connect gate="G$1" pin="GPIO20(ADC1_INP3)" pad="26 B26"/>
-<connect gate="G$1" pin="GPIO21(ADC1_INP11)" pad="27 B27"/>
-<connect gate="G$1" pin="GPIO22(ADC1_INP4)" pad="28 B28"/>
-<connect gate="G$1" pin="GPIO23(DAC1_OUT2)" pad="29 B29"/>
-<connect gate="G$1" pin="GPIO24(DAC1_OUT1)" pad="30 B30"/>
-<connect gate="G$1" pin="GPIO25(SAI2_MCLK_B)" pad="31 B31"/>
-<connect gate="G$1" pin="GPIO26(SAI2_SD_B)" pad="32 B32"/>
-<connect gate="G$1" pin="GPIO27(SAI2_SD_A)" pad="33 B33"/>
-<connect gate="G$1" pin="GPIO28(SAI2_FS_B)" pad="34 B34"/>
-<connect gate="G$1" pin="GPIO29(SAI2_SCK_B)" pad="35 B35"/>
-<connect gate="G$1" pin="GPIO3(SDMMC1_D2)" pad="3 B3"/>
-<connect gate="G$1" pin="GPIO30(USB_HS_D_-)" pad="36 B36"/>
-<connect gate="G$1" pin="GPIO31(USB_HS_D+)" pad="37 B37"/>
-<connect gate="G$1" pin="GPIO4(SDMMC1_D1)" pad="4 B4"/>
-<connect gate="G$1" pin="GPIO5(SDMMC1_D0)" pad="5 B5"/>
-<connect gate="G$1" pin="GPIO6(SDMMC1_CMD)" pad="6 B6"/>
-<connect gate="G$1" pin="GPIO7(SDMMC1_CK)" pad="7 B7"/>
-<connect gate="G$1" pin="GPIO8(SPI1_NSS)" pad="8 B8"/>
-<connect gate="G$1" pin="GPIO9(SPI1_SCK)" pad="9 B9"/>
+<connect gate="G$1" pin="GPIO0(USB_HS_ID)" pad="1 B1"/>
+<connect gate="G$1" pin="GPIO1(SDMMC1_D3)" pad="2 B2"/>
+<connect gate="G$1" pin="GPIO10(SPI1_MOSI)" pad="11 B11"/>
+<connect gate="G$1" pin="GPIO11(I2C1_SCL)" pad="12 B12"/>
+<connect gate="G$1" pin="GPIO12(I2C1_SDA)" pad="13 B13"/>
+<connect gate="G$1" pin="GPIO13(USART1_TX)" pad="14 B14"/>
+<connect gate="G$1" pin="GPIO14(USART1_RX)" pad="15 B15"/>
+<connect gate="G$1" pin="GPIO15(ADC0)" pad="22 B22"/>
+<connect gate="G$1" pin="GPIO16(ADC1)" pad="23 B23"/>
+<connect gate="G$1" pin="GPIO17(ADC2)" pad="24 B24"/>
+<connect gate="G$1" pin="GPIO18(ADC3)" pad="25 B25"/>
+<connect gate="G$1" pin="GPIO19(ADC4)" pad="26 B26"/>
+<connect gate="G$1" pin="GPIO2(SDMMC1_D2)" pad="3 B3"/>
+<connect gate="G$1" pin="GPIO20(ADC5)" pad="27 B27"/>
+<connect gate="G$1" pin="GPIO21(ADC6)" pad="28 B28"/>
+<connect gate="G$1" pin="GPIO22(ADC7/DAC2)" pad="29 B29"/>
+<connect gate="G$1" pin="GPIO23(ADC8/DAC1)" pad="30 B30"/>
+<connect gate="G$1" pin="GPIO24(ADC9)" pad="31 B31"/>
+<connect gate="G$1" pin="GPIO25(ADC10)" pad="32 B32"/>
+<connect gate="G$1" pin="GPIO26(SAI2_SD_A)" pad="33 B33"/>
+<connect gate="G$1" pin="GPIO27(SAI2_FS_B)" pad="34 B34"/>
+<connect gate="G$1" pin="GPIO28(ADC11)" pad="35 B35"/>
+<connect gate="G$1" pin="GPIO29(USB_HS_D_-)" pad="36 B36"/>
+<connect gate="G$1" pin="GPIO3(SDMMC1_D1)" pad="4 B4"/>
+<connect gate="G$1" pin="GPIO30(USB_HS_D+)" pad="37 B37"/>
+<connect gate="G$1" pin="GPIO4(SDMMC1_D0)" pad="5 B5"/>
+<connect gate="G$1" pin="GPIO5(SDMMC1_CMD)" pad="6 B6"/>
+<connect gate="G$1" pin="GPIO6(SDMMC1_CK)" pad="7 B7"/>
+<connect gate="G$1" pin="GPIO7(SPI1_NSS)" pad="8 B8"/>
+<connect gate="G$1" pin="GPIO8(SPI1_SCK)" pad="9 B9"/>
+<connect gate="G$1" pin="GPIO9(SPI1_MISO)" pad="10 B10"/>
 <connect gate="G$1" pin="V_IN" pad="39 B39"/>
 </connects>
 <technologies>
@@ -9457,7 +9461,7 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
+<library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
  Please keep in mind, that these devices are necessary for the
@@ -9468,14 +9472,14 @@ DIN A3, landscape with location and doc. field</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="GND">
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GND" prefix="GND">
+<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
@@ -12115,11 +12119,11 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply2">
+<library name="supply2" urn="urn:adsk.eagle:library:372">
 <packages>
 </packages>
 <symbols>
-<symbol name="+12V">
+<symbol name="+12V" urn="urn:adsk.eagle:symbol:26985/1" library_version="2">
 <wire x1="0" y1="1.905" x2="0" y2="0.635" width="0.1524" layer="94"/>
 <wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
 <circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
@@ -12128,7 +12132,7 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="+12V" prefix="SUPPLY">
+<deviceset name="+12V" urn="urn:adsk.eagle:component:27033/1" prefix="SUPPLY" library_version="2">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="+12V" symbol="+12V" x="0" y="0"/>
@@ -12456,15 +12460,15 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C56" library="Electrosmith-Passives" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10UF"/>
 <part name="GND64" library="Electrosmith-Power" deviceset="GND" device=""/>
 <part name="GND65" library="Electrosmith-Power" deviceset="GND" device=""/>
-<part name="SUPPLY34" library="supply2" deviceset="+12V" device=""/>
+<part name="SUPPLY34" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="L3" library="ElectroSmith" deviceset="SRN3015TA" device="" value="47UH"/>
-<part name="GND66" library="supply1" deviceset="GND" device=""/>
-<part name="GND67" library="supply1" deviceset="GND" device=""/>
-<part name="GND68" library="supply1" deviceset="GND" device=""/>
+<part name="GND66" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND67" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND68" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C31" library="ElectroSmith" deviceset="C-EU" device="C0805" value="10UF"/>
-<part name="GND69" library="supply1" deviceset="GND" device=""/>
+<part name="GND69" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="Electrosmith-Power" deviceset="AP1509" device="" technology="-3V3" value="AP1509-33SG-13"/>
-<part name="GND70" library="supply1" deviceset="GND" device=""/>
+<part name="GND70" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C33" library="ElectroSmith" deviceset="C-EU" device="C0805" value="10UF"/>
 <part name="D3" library="ElectroSmith" deviceset="DIODE" device="SOD-123" value="MBR0560-TP"/>
 </parts>
@@ -12724,7 +12728,7 @@ SAI / SDMMC</text>
 <segment>
 <wire x1="58.42" y1="223.52" x2="33.02" y2="223.52" width="0.1524" layer="91"/>
 <label x="35.56" y="223.52" size="1.778" layer="95"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO2(SDMMC1_D3)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO1(SDMMC1_D3)"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="D3/CS"/>
@@ -12740,7 +12744,7 @@ SAI / SDMMC</text>
 <segment>
 <wire x1="58.42" y1="220.98" x2="33.02" y2="220.98" width="0.1524" layer="91"/>
 <label x="35.56" y="220.98" size="1.778" layer="95"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO3(SDMMC1_D2)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO2(SDMMC1_D2)"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="D2/NC"/>
@@ -12756,7 +12760,7 @@ SAI / SDMMC</text>
 <segment>
 <wire x1="58.42" y1="218.44" x2="33.02" y2="218.44" width="0.1524" layer="91"/>
 <label x="35.56" y="218.44" size="1.778" layer="95"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO4(SDMMC1_D1)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO3(SDMMC1_D1)"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="D1/RSV"/>
@@ -12772,7 +12776,7 @@ SAI / SDMMC</text>
 <segment>
 <wire x1="58.42" y1="215.9" x2="33.02" y2="215.9" width="0.1524" layer="91"/>
 <label x="35.56" y="215.9" size="1.778" layer="95"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO5(SDMMC1_D0)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO4(SDMMC1_D0)"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="D0/DO"/>
@@ -12788,7 +12792,7 @@ SAI / SDMMC</text>
 <segment>
 <wire x1="58.42" y1="213.36" x2="33.02" y2="213.36" width="0.1524" layer="91"/>
 <label x="35.56" y="213.36" size="1.778" layer="95"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO6(SDMMC1_CMD)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO5(SDMMC1_CMD)"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="CMD/DI"/>
@@ -12804,7 +12808,7 @@ SAI / SDMMC</text>
 <segment>
 <wire x1="58.42" y1="210.82" x2="33.02" y2="210.82" width="0.1524" layer="91"/>
 <label x="35.56" y="210.82" size="1.778" layer="95"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO7(SDMMC1_CK)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO6(SDMMC1_CK)"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SCK"/>
@@ -12816,7 +12820,7 @@ SAI / SDMMC</text>
 <segment>
 <wire x1="58.42" y1="193.04" x2="33.02" y2="193.04" width="0.1524" layer="91"/>
 <label x="35.56" y="193.04" size="1.778" layer="95"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO14(USART1_TX)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO13(USART1_TX)"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -12828,7 +12832,7 @@ SAI / SDMMC</text>
 <segment>
 <wire x1="58.42" y1="190.5" x2="33.02" y2="190.5" width="0.1524" layer="91"/>
 <label x="35.56" y="190.5" size="1.778" layer="95"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO15(USART1_RX)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO14(USART1_RX)"/>
 </segment>
 <segment>
 <pinref part="U15" gate="G$1" pin="OUT"/>
@@ -13063,21 +13067,21 @@ SAI / SDMMC</text>
 <segment>
 <wire x1="119.38" y1="198.12" x2="139.7" y2="198.12" width="0.1524" layer="91"/>
 <label x="137.16" y="198.12" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO23(DAC1_OUT2)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO22(ADC7/DAC2)"/>
 </segment>
 </net>
 <net name="DAC1_OUT1" class="0">
 <segment>
 <wire x1="119.38" y1="200.66" x2="139.7" y2="200.66" width="0.1524" layer="91"/>
 <label x="137.16" y="200.66" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO24(DAC1_OUT1)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO23(ADC8/DAC1)"/>
 </segment>
 </net>
 <net name="SAI2_SD_B" class="0">
 <segment>
 <wire x1="119.38" y1="205.74" x2="139.7" y2="205.74" width="0.1524" layer="91"/>
 <label x="137.16" y="205.74" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO26(SAI2_SD_B)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO25(ADC10)"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$2" pin="SDO"/>
@@ -13089,7 +13093,7 @@ SAI / SDMMC</text>
 <segment>
 <wire x1="119.38" y1="208.28" x2="139.7" y2="208.28" width="0.1524" layer="91"/>
 <label x="137.16" y="208.28" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO27(SAI2_SD_A)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO26(SAI2_SD_A)"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$2" pin="SDI"/>
@@ -13101,7 +13105,7 @@ SAI / SDMMC</text>
 <segment>
 <wire x1="119.38" y1="210.82" x2="139.7" y2="210.82" width="0.1524" layer="91"/>
 <label x="137.16" y="210.82" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO28(SAI2_FS_B)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO27(SAI2_FS_B)"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$2" pin="LRCK"/>
@@ -13113,7 +13117,7 @@ SAI / SDMMC</text>
 <segment>
 <wire x1="119.38" y1="213.36" x2="139.7" y2="213.36" width="0.1524" layer="91"/>
 <label x="137.16" y="213.36" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO29(SAI2_SCK_B)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO28(ADC11)"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$2" pin="BCLK"/>
@@ -13217,7 +13221,7 @@ SAI / SDMMC</text>
 </net>
 <net name="SAI2_MCLK" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO25(SAI2_MCLK_B)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO24(ADC9)"/>
 <wire x1="119.38" y1="203.2" x2="139.7" y2="203.2" width="0.1524" layer="91"/>
 <label x="137.16" y="203.2" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -13280,7 +13284,7 @@ SAI / SDMMC</text>
 </net>
 <net name="ADC_CTRL_4" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO19(ADC1_INP7)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO18(ADC3)"/>
 <wire x1="119.38" y1="187.96" x2="139.7" y2="187.96" width="0.1524" layer="91"/>
 <label x="137.16" y="187.96" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -13289,47 +13293,47 @@ SAI / SDMMC</text>
 <segment>
 <wire x1="119.38" y1="180.34" x2="139.7" y2="180.34" width="0.1524" layer="91"/>
 <label x="137.16" y="180.34" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO16(ADC1_INP10)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO15(ADC0)"/>
 </segment>
 </net>
 <net name="ADC_CTRL_2" class="0">
 <segment>
 <wire x1="119.38" y1="182.88" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
 <label x="137.16" y="182.88" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO17(ADC1_INP15)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO16(ADC1)"/>
 </segment>
 </net>
 <net name="OLED_CS" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO8(SPI1_NSS)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO7(SPI1_NSS)"/>
 <wire x1="58.42" y1="208.28" x2="33.02" y2="208.28" width="0.1524" layer="91"/>
 <label x="35.56" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OLED_SCK" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO9(SPI1_SCK)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO8(SPI1_SCK)"/>
 <wire x1="58.42" y1="205.74" x2="33.02" y2="205.74" width="0.1524" layer="91"/>
 <label x="35.56" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OLED_CMD" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO10(SPI1_MISO)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO9(SPI1_MISO)"/>
 <wire x1="58.42" y1="203.2" x2="33.02" y2="203.2" width="0.1524" layer="91"/>
 <label x="35.56" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OLED_DATA" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO11(SPI1_MOSI)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO10(SPI1_MOSI)"/>
 <wire x1="58.42" y1="200.66" x2="33.02" y2="200.66" width="0.1524" layer="91"/>
 <label x="35.56" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AK4556_RST" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO30(USB_HS_D_-)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO29(USB_HS_D_-)"/>
 <wire x1="119.38" y1="215.9" x2="139.7" y2="215.9" width="0.1524" layer="91"/>
 <label x="137.16" y="215.9" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -13341,35 +13345,35 @@ SAI / SDMMC</text>
 </net>
 <net name="ENC_CLICK" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO1(USB_HS_ID)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO0(USB_HS_ID)"/>
 <wire x1="58.42" y1="226.06" x2="33.02" y2="226.06" width="0.1524" layer="91"/>
 <label x="35.56" y="226.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ENC_B" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO12(I2C1_SCL)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO11(I2C1_SCL)"/>
 <wire x1="58.42" y1="198.12" x2="33.02" y2="198.12" width="0.1524" layer="91"/>
 <label x="35.56" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GATE_OUT" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO18(ADC1_INP5)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO17(ADC2)"/>
 <wire x1="119.38" y1="185.42" x2="139.7" y2="185.42" width="0.1524" layer="91"/>
 <label x="137.16" y="185.42" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="GATE_IN_1" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO21(ADC1_INP11)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO20(ADC5)"/>
 <wire x1="119.38" y1="193.04" x2="139.7" y2="193.04" width="0.1524" layer="91"/>
 <label x="137.16" y="193.04" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="GATE_IN_2" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO20(ADC1_INP3)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO19(ADC4)"/>
 <wire x1="119.38" y1="190.5" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
 <label x="137.16" y="190.5" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -13429,7 +13433,7 @@ SAI / SDMMC</text>
 </net>
 <net name="OLED_RST" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO31(USB_HS_D+)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO30(USB_HS_D+)"/>
 <wire x1="119.38" y1="218.44" x2="139.7" y2="218.44" width="0.1524" layer="91"/>
 <label x="137.16" y="218.44" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -13472,14 +13476,14 @@ SAI / SDMMC</text>
 </net>
 <net name="ADC_CTRL_3" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO22(ADC1_INP4)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO21(ADC6)"/>
 <wire x1="119.38" y1="195.58" x2="139.7" y2="195.58" width="0.1524" layer="91"/>
 <label x="137.16" y="195.58" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="ENC_A" class="0">
 <segment>
-<pinref part="U_DAISY" gate="G$1" pin="GPIO13(I2C1_SDA)"/>
+<pinref part="U_DAISY" gate="G$1" pin="GPIO12(I2C1_SDA)"/>
 <wire x1="58.42" y1="195.58" x2="33.02" y2="195.58" width="0.1524" layer="91"/>
 <label x="35.56" y="195.58" size="1.778" layer="95"/>
 </segment>
