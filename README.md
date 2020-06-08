@@ -1,4 +1,6 @@
-Hardware documentation and reference circuit designs for Electrosmith submodules and boards including the [Daisy Embedded Audio Platform.](https://www.electro-smith.com/daisy)
+## Hardware
+
+Documentation and reference circuits for Electrosmith submodules and boards including the [Daisy Embedded Audio Platform.](https://www.electro-smith.com/daisy)
 
 ### Features
 
