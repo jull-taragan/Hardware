@@ -30,7 +30,7 @@ This voltage must be between +4V and +17V
 
 Digital Ground pin. 
 
-Should be connected too AGND outside of Daisy submodule.
+Should be connected to AGND outside of Daisy submodule.
 
 ### Pin 20 - AGND
 
