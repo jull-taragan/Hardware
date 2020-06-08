@@ -90,7 +90,13 @@ When configured as an output each pin can be configured for push-pull or open-dr
 
 I/O levels should be kept between 0V and 3V3
 
-All GPIO Pins are 5V tolerant. **Double check this, there are a few 3v3 tolerant pins on the MCU**
+All GPIO Pins are 5V tolerant I/O except for the following pins which are 3.3V tolerant I/O:
+
+* Pin 24 - (PB1, ADC12_INP5)
+* Pin 25 - (PA7, ADC12_INP7)
+* Pin 28 - (PC4, ADC12_INP4)
+* Pin 29 - (PA5, DAC1 OUT2)
+* Pin 30 - (PA4, DAC1 OUT1)
 
 # Datasheet Changelog
 
