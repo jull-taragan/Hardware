@@ -1,10 +1,10 @@
 # Daisy Seed
 
-![pinout](https://github.com/andrewikenberry/Hardware/blob/master/resources/300ppi/DaisyPinoutRev4.png)
-
 Datasheet Version v0.1
 
 Technical Overview of the Daisy Seed
+
+![pinout](https://github.com/andrewikenberry/Hardware/blob/master/resources/300ppi/DaisyPinoutRev4.png)
 
 ## Electrical Characteristics
 
