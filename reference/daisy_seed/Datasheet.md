@@ -1,6 +1,6 @@
 # Daisy Seed
 
-![pinout](https://github.com/andrewikenberry/Hardware/edit/master/resources/300ppi/DaisyPinoutRev4.png)
+![pinout](https://github.com/andrewikenberry/Hardware/blob/master/resources/300ppi/DaisyPinoutRev4.png)
 
 Datasheet Version v0.1
 
