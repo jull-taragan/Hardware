@@ -10,7 +10,7 @@ Documentation and reference circuits for Electrosmith submodules and boards incl
 
 - EAGLE files for hardware examples
 
-- Fritzing breadboard diagrams and schematics
+- Fritzing breadboard diagrams and schematics (coming soon)
 
 ### Getting Started
 - Check out our [Getting Started wiki page](https://github.com/electro-smith/DaisyWiki/wiki/1.-Getting-Started)
